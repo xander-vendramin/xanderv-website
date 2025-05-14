@@ -22,9 +22,9 @@ export default function Home() {
         </div>
         <h1 className="mt-10 text-shadow-lg text-4xl justify-items-center place-self-center">Projects</h1>
 
-      <div className="grid grid-cols-3 gap-1 p-6 h-225">
+      <div className="grid grid-rows-3 lg:grid-cols-3 max-h-500 lg:max-h-300 gap-3 p-6 ml-20 mr-20">
         <div className="">
-          <div className="p-2 mt-10 border-6 border-solid shadow-lg bg-blue3 border-black">
+          <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-blue3 border-black">
           <p className="text-shadow-lg text-xl mb-3"><u>Unity VR Showcase</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md" height="300" width="100%" src="https://www.youtube.com/embed/hw_NRuF31b4" allowFullScreen></iframe>
             <p>Stack Used: Unity, C#, OVR</p>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="p-2 mt-10 border-6 border-solid shadow-lg bg-blue3 border-black">
+          <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-blue3 border-black">
             <a className="text-shadow-lg text-xl text-blue-800" href="https://film-finder-publish.vercel.app/" target="_blank"><u>Film Finder - Click to View</u></a>
             <p>Stack Used: React, NextJS, ChakraUI, MongoDB</p>
             <br></br>
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-        <div className="p-2 mt-10 border-6 border-solid shadow-lg bg-blue3 border-black">
+        <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-blue3 border-black">
           <p className="text-shadow-lg text-xl mb-3"><u>Unity Level Generation</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md" height="300" width="100%" src="https://www.youtube.com/embed/FU0A3x0K6k8" allowFullScreen></iframe>
           <p>Stack Used: Unity, C#</p>
