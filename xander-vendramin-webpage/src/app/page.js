@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="font-[family-name:var(--font-mono)] text-black bg-gradient-to-bl from-blue2 to-blue4 min-h-screen">
+      <div className="font-[family-name:var(--font-mono)] text-white bg-gradient-to-bl from-slate-900 to-gray-950 min-h-screen">
         <div className="justify-items-center place-content-center ">
           <h1 className="text-shadow-lg text-4xl mt-10">Portfolio of Xander Vendramin</h1>
       </div>
-        <div className="w-1/2 justify-self-center p-2 mt-10 border-6 border-solid shadow-lg bg-blue3 border-black">
+        <div className="w-1/2 justify-self-center p-2 mt-10 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
           <p>
           I am a new graduate from the University of Regina with a bachelor's degree majoring in 
           computer science. I am looking for an opportunity to use my coding skills and strong foundational
@@ -17,14 +17,14 @@ export default function Home() {
           <br></br>
           <p>
             Contact Info: <br></br> Email: xvendramin@gmail.com <br></br> Phone: +1-306-552-4547
-            <br></br> Resume: <a className="text-blue-800" href="Xander Vendramin Resume.pdf" download><u>Click Here</u></a>
+            <br></br> Resume: <a className="text-blue-500" href="Xander Vendramin Resume.pdf" download><u>Click Here</u></a>
           </p>
         </div>
         <h1 className="mt-10 text-shadow-lg text-4xl justify-items-center place-self-center">Projects</h1>
 
       <div className="grid grid-rows-3 lg:grid-cols-3 max-h-500 lg:max-h-300 gap-3 p-6 ml-20 mr-20">
         <div className="">
-          <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-blue3 border-black">
+          <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
           <p className="text-shadow-lg text-xl mb-3"><u>Unity VR Showcase</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md" height="300" width="100%" src="https://www.youtube.com/embed/hw_NRuF31b4" allowFullScreen></iframe>
             <p>Stack Used: Unity, C#, OVR</p>
@@ -38,8 +38,8 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-blue3 border-black">
-            <a className="text-shadow-lg text-xl text-blue-800" href="https://film-finder-publish.vercel.app/" target="_blank"><u>Film Finder - Click to View</u></a>
+          <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
+            <a className="text-shadow-lg text-xl text-blue-500" href="https://film-finder-publish.vercel.app/" target="_blank"><u>Film Finder - Click to View</u></a>
             <p>Stack Used: React, NextJS, ChakraUI, MongoDB</p>
             <br></br>
             <p>Film Finder is a website I worked on in University on with a team of five people. We had a limited timeline
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-        <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-blue3 border-black">
+        <div className="p-2 mt-5 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
           <p className="text-shadow-lg text-xl mb-3"><u>Unity Level Generation</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md" height="300" width="100%" src="https://www.youtube.com/embed/FU0A3x0K6k8" allowFullScreen></iframe>
           <p>Stack Used: Unity, C#</p>
