@@ -24,11 +24,21 @@ export default function Home() {
     </div>
   </div>
 </nav>
+<div
+  className="relative h-[400px] overflow-hidden rounded-lg bg-[url('https://tecdn.b-cdn.net/img/new/slides/041.webp')] bg-cover bg-no-repeat p-12 text-center text-white">
+  <div
+    className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black/60 bg-fixed">
+    <div className="flex h-full items-center justify-center">
+      <div className="text-white">
+        <h2 className="mb-4 text-4xl font-semibold text-shadow-lg">Projects</h2>
+      </div>
+    </div>
+  </div>
+</div>
       <div className="font-[family-name:var(--font-sans)] text-white bg-gradient-to-bl from-slate-900 to-gray-950 min-h-screen">
-      <h1 className="text-shadow-lg text-5xl justify-items-center place-self-center p-10">Projects</h1>
       <div className="grid grid-rows-3 lg:grid-cols-3 max-h-500 lg:max-h-300 gap-3 p-6 ml-20 mr-20">
         <div className="">
-          <div className="p-2 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
+          <div className="p-2 border-6 border-solid rounded-lg shadow-lg bg-slate-700 border-slate-800">
           <p className="text-shadow-lg text-2xl mb-3 place-self-center"><u>Unity VR Showcase</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md mb-3" height="300" width="100%" src="https://www.youtube.com/embed/hw_NRuF31b4" allowFullScreen></iframe>
             <p>Stack Used: Unity, C#, OVR</p>
@@ -42,7 +52,7 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="p-2 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
+          <div className="p-2 border-6 border-solid rounded-lg shadow-lg bg-slate-700 border-slate-800">
             <p className="place-self-center mb-3"><a href="https://film-finder-publish.vercel.app/" className="text-shadow-lg text-2xl text-blue-500"  target="_blank"><u>Film Finder - Click to View</u></a></p>
             <p>Stack Used: React, NextJS, ChakraUI, MongoDB</p>
             <br></br>
@@ -58,7 +68,7 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-        <div className="p-2 border-6 border-solid shadow-lg bg-slate-700 border-slate-800">
+        <div className="p-2 border-6 border-solid rounded-lg shadow-lg bg-slate-700 border-slate-800">
           <p className="text-shadow-lg text-2xl mb-3 place-self-center"><u>Unity Level Generation</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md mb-3" height="300" width="100%" src="https://www.youtube.com/embed/FU0A3x0K6k8" allowFullScreen></iframe>
           <p>Stack Used: Unity, C#</p>
