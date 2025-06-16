@@ -36,7 +36,7 @@ export default function Home() {
   </div>
 </div>
       <div className="font-[family-name:var(--font-roboto)] text-white bg-gradient-to-bl from-slate-900 to-gray-950 min-h-screen">
-      <div className="grid grid-rows-1 lg:grid-cols-3 max-h-500 lg:max-h-300 gap-3 p-6 ml-20 mr-20">
+      <div className="grid grid-rows-1 md:grid-rows-1 lg:grid-cols-3 max-h-500 lg:max-h-300 gap-3 p-6 ml-20 mr-20">
         <div className="">
           <div className="p-2 border-6 border-solid rounded-lg shadow-lg  bg-linear-to-t from-slate-700 to-slate-600 border-slate-800">
           <p className="text-shadow-lg text-2xl mb-3 place-self-center"><u>Unity VR Showcase</u></p>

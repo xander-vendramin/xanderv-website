@@ -43,7 +43,10 @@ export default function Home() {
           I am a new graduate from the University of Regina with a bachelor's degree majoring in 
           computer science. I am looking for an opportunity to use my coding skills and strong foundational
           computer science knowledge in a professional environment. I am commited to being a productive member of any team
-          where I can produce consistent and efficient work. <br></br>
+          where I can produce consistent and efficient work. <br></br> I have experience with many different types of programming. I am
+          experienced in full stack web development and specialize in NextJS frameworks. I am also experienced in software developemnt
+          and related languages such as all C languages and Python. I have a comprehensive list of all languages/work environments I am familiar
+          with on my resume. The projects tab of this website has a few examples of past and current examples of my work.
           </p>
           <br></br>
           <p>
