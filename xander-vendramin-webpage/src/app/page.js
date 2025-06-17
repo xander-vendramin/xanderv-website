@@ -18,7 +18,7 @@ export default function Home() {
     </div>
   </div>
   <div className="sm:hidden" id="mobile-menu">
-    <div className="space-y-1 px-2 pb-3 place-items-center">
+    <div className="space-y-1 px-2 pb-3 justify-items-center">
       <a href="\" className="text-center block w-1/3 rounded-md bg-gray-900 px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Home</a>
       <a href="/projects" className="text-center block w-1/3 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
     </div>
