@@ -5,7 +5,7 @@ export default function Home() {
   //Navbar outline provided by tailwind open source code
   <div>
   <nav className="bg-slate-700">
-  <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-7xl px-2 sm:px-6 md:px-8 lg:px-8">
     <div className="relative flex h-5 md:h-20 lg:h-20  items-center justify-between">
       <div className="flex flex-1 items-center justify-center">
         <div className="hidden sm:ml-6 sm:block">
@@ -18,7 +18,7 @@ export default function Home() {
     </div>
   </div>
   <div className="sm:hidden" id="mobile-menu">
-    <div className="space-y-1 px-2 pb-3 justify-items-center">
+    <div className="space-y-1 px-2 pb-3 justify-items-center sm:justify-items-center md:justify-items-center lg:justify-items-center xl:justify-items-center 2xl:justify-items-center">
       <a href="\" className="text-center block w-1/3 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
       <a href="/projects" className="text-center block w-1/3 bg-gray-900 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Projects</a>  
     </div>
