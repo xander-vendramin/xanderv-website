@@ -18,9 +18,9 @@ export default function Home() {
     </div>
   </div>
   <div className="sm:hidden" id="mobile-menu">
-    <div className="space-y-1 px-2 pb-3 justify-items-center sm:justify-items-center md:justify-items-center lg:justify-items-center xl:justify-items-center 2xl:justify-items-center">
-      <a href="\" className="text-center block w-1/3 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
-      <a href="/projects" className="text-center block w-1/3 bg-gray-900 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Projects</a>  
+    <div className="space-y-1 px-2 pb-3">
+      <a href="\" className="text-center m-auto block w-1/3 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
+      <a href="/projects" className="text-center m-auto block w-1/3 bg-gray-900 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Projects</a>  
     </div>
   </div>
 </nav>
