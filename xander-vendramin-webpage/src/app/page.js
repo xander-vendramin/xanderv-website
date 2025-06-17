@@ -6,8 +6,8 @@ export default function Home() {
   <div>
   <nav className="bg-slate-700">
   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div className="relative flex h-16 items-center justify-between">
-      <div className="flex flex-1 items-center justify-center sm:items-stretch">
+    <div className="relative flex h-5 md:h-20 lg:h-20  items-center justify-between">
+      <div className="flex flex-1 items-center justify-center">
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
             <a href="\" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Home</a>
@@ -18,14 +18,14 @@ export default function Home() {
     </div>
   </div>
   <div className="sm:hidden" id="mobile-menu">
-    <div className="space-y-1 px-2 pt-2 pb-3">
-      <a href="\" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
-      <a href="/projects" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+    <div className="space-y-1 px-2 pb-3">
+      <a href="\" className="text-center place-self-center block w-1/3 rounded-md bg-gray-900 px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Home</a>
+      <a href="/projects" className="text-center place-self-center block w-1/3 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
     </div>
   </div>
 </nav>
 <div
-  className="relative h-[400px] overflow-hidden opacity-80 rounded-lg bg-[url('https://tecdn.b-cdn.net/img/new/slides/041.webp')] bg-cover bg-no-repeat p-12 text-center text-white">
+  className="relative h-[400px] opacity-80 overflow-hidden rounded-lg bg-[url('https://tecdn.b-cdn.net/img/new/slides/041.webp')] bg-cover bg-no-repeat text-center text-white">
   <div
     className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black/60 bg-fixed">
     <div className="flex h-full items-center justify-center">
@@ -38,7 +38,7 @@ export default function Home() {
       <div className="font-[family-name:var(--font-roboto)] text-white bg-gradient-to-bl from-slate-900 to-gray-950 min-h-screen">
         <div className="justify-items-center place-content-center ">
       </div>
-        <div className="w-2/3 justify-self-center p-5 mt-10 border-6 border-solid rounded-lg shadow-lg text-xl bg-linear-to-t from-slate-700 to-slate-600 border-slate-800">
+        <div className="mr-3 ml-3 lg:w-2/3 place-self-center p-4 mt-4 border-1 border-solid rounded-lg shadow-lg text-xl bg-linear-to-t from-slate-700 to-slate-600 border-slate-700">
           <p>
           I am a new graduate from the University of Regina with a bachelor's degree majoring in 
           computer science. I am looking for an opportunity to use my coding skills and strong foundational

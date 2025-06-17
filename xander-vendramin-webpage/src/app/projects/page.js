@@ -6,8 +6,8 @@ export default function Home() {
   <div>
   <nav className="bg-slate-700">
   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div className="relative flex h-16 items-center justify-between">
-      <div className="flex flex-1 items-center justify-center sm:items-stretch">
+    <div className="relative flex h-5 md:h-20 lg:h-20  items-center justify-between">
+      <div className="flex flex-1 items-center justify-center">
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
             <a href="\" className="rounded-md px-3 py-2 text-sm font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
@@ -18,9 +18,9 @@ export default function Home() {
     </div>
   </div>
   <div className="sm:hidden" id="mobile-menu">
-    <div className="space-y-1 px-2 pt-2 pb-3">
-      <a href="\" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
-      <a href="/projects" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Projects</a>  
+    <div className="space-y-1 px-2 pb-3">
+      <a href="\" className="text-center place-self-center block w-1/3 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
+      <a href="/projects" className="text-center place-self-center block w-1/3 bg-gray-900 rounded-md px-3 py-2 font-medium font-[family-name:var(--font-oswald)] text-white" aria-current="page">Projects</a>  
     </div>
   </div>
 </nav>
@@ -36,14 +36,14 @@ export default function Home() {
   </div>
 </div>
       <div className="font-[family-name:var(--font-roboto)] text-white bg-gradient-to-bl from-slate-900 to-gray-950 min-h-screen">
-      <div className="grid grid-rows-1 md:grid-rows-1 lg:grid-cols-3 max-h-500 lg:max-h-300 gap-3 p-6 ml-20 mr-20">
+      <div className="grid grid-rows-1 md:grid-rows-1 lg:grid-cols-3 gap-3 p-4 md:ml-15 md:mr-15 lg:ml-20 lg:mr-20">
         <div className="">
-          <div className="p-2 border-6 border-solid rounded-lg shadow-lg  bg-linear-to-t from-slate-700 to-slate-600 border-slate-800">
+          <div className="p-2 border-1 border-solid rounded-lg shadow-lg bg-linear-to-t from-slate-700 to-slate-600 border-slate-700">
           <p className="text-shadow-lg text-2xl mb-3 place-self-center"><u>Unity VR Showcase</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md mb-3" height="300" width="100%" src="https://www.youtube.com/embed/hw_NRuF31b4" allowFullScreen></iframe>
-            <p>Stack Used: Unity, C#, OVR</p>
+            <p className="justify-self-center">Stack Used: Unity, C#, OVR</p>
             <br></br>
-            <p>This is a University project that I worked on for a class I took about developing software for Virtual Reality. I worked on the project
+            <p className="text-center">This is a University project that I worked on for a class I took about developing software for Virtual Reality. I worked on the project
             by myself within a timeframe of about one month. I was responsible for everything in the project except the actual
             creation of models and assets, which were all free open source assets. This project was my first time using Unity and
             C# for a project of this scale, and I was specifically proud of how I managed to take on a new programming language
@@ -52,11 +52,11 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="p-2 border-6 border-solid rounded-lg shadow-lg bg-linear-to-t from-slate-700 to-slate-600 border-slate-800">
+          <div className="p-2 border-1 border-solid rounded-lg shadow-lg bg-linear-to-t from-slate-700 to-slate-600 border-slate-700">
             <p className="place-self-center mb-3"><a href="https://film-finder-publish.vercel.app/" className="text-shadow-lg text-2xl text-blue-500"  target="_blank"><u>Film Finder - Click to View</u></a></p>
-            <p>Stack Used: React, NextJS, ChakraUI, MongoDB</p>
+            <p className="justify-self-center">Stack Used: React, NextJS, ChakraUI, MongoDB</p>
             <br></br>
-            <p>Film Finder is a website I worked on in University on with a team of five people. We had a limited timeline
+            <p className="text-center">Film Finder is a website I worked on in University on with a team of five people. We had a limited timeline
               to create a fully functioning full stack website for our final project. My main contribution to this project was
               the back end. I designed account creation and adjustments, login validation, and account storage in a MongoDB database. I
               also worked on the website's ability to fetch movie reviews, rating, and other information on the page. I also
@@ -68,12 +68,12 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-        <div className="p-2 border-6 border-solid rounded-lg shadow-lg bg-linear-to-t from-slate-700 to-slate-600 border-slate-800">
+        <div className="p-2 border-1 border-solid rounded-lg shadow-lg bg-linear-to-t from-slate-700 to-slate-600 border-slate-700">
           <p className="text-shadow-lg text-2xl mb-3 place-self-center"><u>Unity Level Generation</u></p>
           <iframe className="justify-self-center border-solid rounded-b-md mb-3" height="300" width="100%" src="https://www.youtube.com/embed/FU0A3x0K6k8" allowFullScreen></iframe>
-          <p>Stack Used: Unity, C#</p>
+          <p className="justify-self-center">Stack Used: Unity, C#</p>
             <br></br>
-            <p>This is a demo of some of my recent independent game development work. This specific showcase is meant to 
+            <p className="text-center">This is a demo of some of my recent independent game development work. This specific showcase is meant to 
               display the functionality of level generation in my game, which utilizes some of the more complex code I've written
               for this project. The level generation works by placing rooms of interest in a grid, then I use some math (Delauny
               Triangulation) to plot hallways from room to room, and then premade assets are placed in the game
